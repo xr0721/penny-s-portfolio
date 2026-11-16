@@ -16,8 +16,8 @@ No build command, paid hosting plan, package installation, or API keys are neede
 
 - `index.html`: homepage introduction, cards, and contact links.
 - `style.css`: colors, fonts, spacing, desktop and mobile layouts.
-- `app.js`: category filters and accessible photo viewer.
-- `brainbud.html`, `hopin.html`, `fitmatch.html`, `arl.html`, `shanshiping.html`: full project case studies.
+- `app.js`: accessible photo viewer.
+- `brainbud.html`, `hopin.html`, `fitmatch.html`, `arl.html`: full project case studies.
 - `whoami.html`: biography.
 - `photos.html`: photography gallery.
 - `assets/`: local copies of images, project posters, CV, and five MP4 prototype videos.
@@ -31,14 +31,14 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 
 Domain registration can remain with its current provider. Keep renewing the domain. Do not remove email-related DNS records. No custom-domain setting has been added to this repository yet.
 
-The existing `/brainbud`, `/hopin`, `/arl`, `/fitmatch`, `/shanshiping`, `/whoami`, `/photos`, and `/works` paths have redirects. The old Squarespace `/s/` download URLs will need their own redirects if preserving external links to old PDFs/posters is important.
+The existing `/brainbud`, `/hopin`, `/arl`, `/fitmatch`, `/whoami`, `/photos`, and `/works` paths have redirects. The old Squarespace `/s/` download URLs will need their own redirects if preserving external links to old PDFs/posters is important.
 
 ## Content and migration notes
 
 - Text and artwork come from Penny's public portfolio; the visual layout is newly implemented.
 - The biography and project dates retain the source site's information. Review references to being a Cornell senior, ongoing projects, and "Present" before final launch.
 - All displayed images, CV, posters, and five embedded video demonstrations are local. The paper-prototype recording is compressed for web delivery.
-- YouTube, the HopIn Canva report, LinkedIn, the lab website, and the Shanshiping museum remain external links. Their permissions and availability are managed by their respective services.
+- YouTube, the HopIn Canva report, LinkedIn, the lab website remain external links. Their permissions and availability are managed by their respective services.
 - Use properly descriptive alternative text when replacing images. The gallery currently labels photographs by collection number.
 - This is a static website: the email link opens a visitor's email application. There is no contact-form backend or tracking service.
 
